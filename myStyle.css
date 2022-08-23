@@ -1,0 +1,23 @@
+*{
+    /* border:0.1em dashed; */
+}
+
+body{
+    background-color: lightblue;
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+h1{
+    color: orangered
+}
+h3{
+    color: rgb(56, 30, 110)
+}
+img#roboimg{
+    
+    width: 80%;
+    margin-left: 2em;
+    margin-righ: 2em;
+    margin-bottom: 1em;
+}
