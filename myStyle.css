@@ -4,15 +4,22 @@
 
 body{
     background-color: lightblue;
-    margin-right: 15%;
-    margin-left: 15%;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-top: 5%;
+    font-size: .95em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1{
-    color: orangered
+    color: orangered;
+    
 }
 h3{
-    color: rgb(56, 30, 110)
+    color: rgb(56, 30, 110);
+    background-color: rgb(144, 236, 255);
+    width: fit-content;
+    font-weight: bolder;
+    /* font-style: italic; */
 }
 img#roboimg{
     
@@ -20,4 +27,16 @@ img#roboimg{
     margin-left: 2em;
     margin-righ: 2em;
     margin-bottom: 1em;
+}
+a:link{
+    color:blue;
+}
+a:hover{
+    color:red;
+}
+a:visited{
+    color:red;
+}
+a:active{
+    color:darkgray;
 }
