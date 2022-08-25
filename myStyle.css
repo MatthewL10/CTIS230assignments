@@ -1,42 +1,73 @@
-*{
-    /* border:0.1em dashed; */
+* {
+  /* border:0.1em dashed; */
 }
 
-body{
-    background-color: lightblue;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-top: 5%;
-    font-size: .95em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+  background-color: lightblue;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-size: 0.95em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1{
-    color: orangered;
+h1 {
+  text-align: center;  
+  padding-top: 2%;
+  color: orangered;
+}
+h3,h4 {
+  color: rgb(10, 30, 180);
+  background-color: rgb(144, 236, 255);
+  width: fit-content;
+  font-weight: bolder;
+  /* font-style: italic; */
+}
+p strong {
+  color: rgb(10, 30, 180);
+}
+p.intro {
+  font-style: italic;
+}
+p.caption {
+  font-size: 13px;
+}
+img#roboimg {
+  width: 80%;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 1em;
+}
+img#imgGallery {
+  width: 75%;
+}
+a:link {
+  color: blue;
+}
+a:hover {
+  color: red;
+}
+a:visited {
+  color: purple;
+}
+a:active {
+  color: darkgray;
+}
+header{
+    background-color: darkblue;
     
 }
-h3{
-    color: rgb(56, 30, 110);
-    background-color: rgb(144, 236, 255);
-    width: fit-content;
-    font-weight: bolder;
-    /* font-style: italic; */
-}
-img#roboimg{
+div.nav{
+    font-size:1.25em; 
+     text-align: center;
+     background-color: orange;
+     height: 50%;
+     width:calc(30%-30px);
+     margin-bottom: 5%;
+   }
+   div.navbar{
+    height:60px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
     
-    width: 80%;
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 1em;
-}
-a:link{
-    color:blue;
-}
-a:hover{
-    color:red;
-}
-a:visited{
-    color:purple;
-}
-a:active{
-    color:darkgray;
-}
+  }
