@@ -10,8 +10,9 @@ body {
 h1 {
   text-align: center;  
   padding-top: 2%;
-  color: orangered;
   padding-bottom: 2%;
+  color: orangered;
+  
 }
 h3,h4 {
   color: rgb(10, 30, 180);
