@@ -29,10 +29,11 @@ p.caption {
   font-size: 13px;
 }
 img#roboimg {
-  width: 80%;
-  margin-left: 2em;
-  margin-right: 2em;
+  width: 60%;
+  margin-left: 1em;
+  margin-right: 1em;
   margin-bottom: 1em;
+  float: right;
 }
 img#imgGallery {
   width: 75%;
@@ -51,7 +52,13 @@ a:active {
 }
 header{
     background-color: darkblue;
+    border: solid orange 10px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px darkblue;
     
+}
+div.design{
+  font-weight: bolder;
 }
 div.nav{
     font-size:1.25em; 
@@ -60,6 +67,8 @@ div.nav{
      height: 50%;
      width:calc(30%-30px);
      margin-bottom: 5%;
+     padding-left: 10px;
+     padding-right: 10px;
    }
    div.navbar{
     height:60px;
