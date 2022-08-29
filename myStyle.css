@@ -92,3 +92,13 @@ div.nav{
     
   }
   /* adding comment to test */
+/* media queries for responsive design */
+/* Asl the browser is being displated and chnage the CSS rules accordinglt*/
+/*as long as the width of the viewport is thess thean 750*/
+@media (max-width : 750px){
+  body { 
+    margin-left: 3%;
+    margin-right: 3%; 
+    
+}
+}
