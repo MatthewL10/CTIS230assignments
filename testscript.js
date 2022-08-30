@@ -26,6 +26,8 @@ secondimg = document.getElementById("secondimg");
 enlargeButton.addEventListener("click", onButtonClick2);
 function onButtonClick2() {  
     secondimg.style.transform= "scale(1.75)";
+    secondimg.style.display="block";
+    secondimg.style.margin="auto";
 }
 
 textentry = document.getElementById("myinput");  
@@ -37,4 +39,6 @@ function onChange() {
 secondimg.addEventListener("mouseout",mouseleave);
 function mouseleave(){
     secondimg.style.transform= "";
+    secondimg.style.display="";
+    secondimg.style.margin="";
 }
