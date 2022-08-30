@@ -23,7 +23,14 @@ function onButtonClick() {
 
 enlargeButton = document.getElementById("enlargeButton");  
 secondimg = document.getElementById("secondimg");
-enlargeButton.addEventListener("click", onButtonClick);
-function onButtonClick() {  
+enlargeButton.addEventListener("click", onButtonClick2);
+function onButtonClick2() {  
     secondimg.style.transform= "scale(1.2)";
+}
+
+textentry = document.getElementById("myinput");  
+textentry.addEventListener("change", onChange);
+function onChange() {  
+    newtext = myinput.value;  
+    otheritem.innerHTML = newtext;  
 }
