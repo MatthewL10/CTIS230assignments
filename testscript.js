@@ -13,3 +13,17 @@ function mouseOut(){
     myitem.style.fontSize = ".95em";
 
 }
+
+thebutton = document.getElementById("thebutton");  
+otheritem = document.getElementById("buttontest");
+thebutton.addEventListener("click", onButtonClick);
+function onButtonClick() {  
+    otheritem.style.color = "red";  
+}
+
+enlargeButton = document.getElementById("enlargeButton");  
+secondimg = document.getElementById("secondimg");
+enlargeButton.addEventListener("click", onButtonClick);
+function onButtonClick() {  
+    secondimg.style.transform= "scale(1.2)";
+}
