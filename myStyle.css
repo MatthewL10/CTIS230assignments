@@ -29,7 +29,6 @@ p.intro {
 }
 p.caption {
   font-size: 13px;
-  border: dashed;
 }
 img#roboimg {
   width: 60%;
@@ -40,6 +39,8 @@ img#roboimg {
 }
 img#imgGallery {
   width: 75%;
+  margin-bottom: 10px;
+  float: left;
 }
 a:link {
   color: blue;
@@ -92,7 +93,7 @@ div.nav{
     justify-content:space-around;
     
   }
-  
+
   /* adding comment to test */
 /* media queries for responsive design */
 /* Asl the browser is being displated and chnage the CSS rules accordinglt*/
