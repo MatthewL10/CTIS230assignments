@@ -42,3 +42,29 @@ function mouseleave(){
     secondimg.style.display="";
     secondimg.style.margin="";
 }
+// Photo Gallery
+
+
+mybigimage = document.getElementById("largeview");
+img1 = document.getElementById("img1");
+
+
+img1.addEventListener("click", makeBigImage);
+mybigimage.addEventListener("click", hideBigImage);
+
+document.addEventListener("keyup", hideBigImage);
+
+function makeBigImage() {
+    mybigimage.innerHTML = '';
+    bigimage = document.createElement("img");
+    bigimage.src ="images/armbig.jpg";
+ 
+    mybigimage.appendChild(bigimage);
+    mybigimage.classList.remove("dontshow");
+    img1.classList.add("dontshow");
+}
+
+function hideBigImage() {
+    mybigimage.classList.add("dontshow");
+    img1.classList.remove("dontshow");
+}

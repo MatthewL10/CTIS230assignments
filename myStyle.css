@@ -37,11 +37,15 @@ img#roboimg {
   margin-bottom: 1em;
   float: right;
 }
-img#imgGallery {
-  width: 75%;
+img.imgGallery {
+  display: block;
+  width: 50%;
   margin-bottom: 10px;
-  float: left;
+  /* margin-right: auto;
+  margin-left: auto; */
+ 
 }
+
 a:link {
   color: blue;
 }
@@ -61,6 +65,7 @@ header{
     box-shadow: 10px 10px darkblue;
     
 }
+
 div.design{
   font-weight: bolder;
 }
@@ -91,17 +96,73 @@ div.nav{
     flex-direction: column;
     align-items:center;
     justify-content:space-around;
-    
   }
+  
+  /*photo gallery*/
+  div#largeview {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dontshow {
+    display:none;
+}
+
 
   /* adding comment to test */
 /* media queries for responsive design */
 /* Asl the browser is being displated and chnage the CSS rules accordinglt*/
 /*as long as the width of the viewport is thess thean 750*/
-@media (max-width : 750px){
+
+
+
+
+
+
+/* verticle */
+@media (max-width : 380px ) and (max-height : 830px) {
+
+  img.imgGallery{
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  div#img1{
+margin-left: 35%;
+
+  }
+div.nav{
+  font-size: .8em;
+}
+body{
+  margin:10%;
+}
+img#smallimg{
+  width: 50%;
+
+}
+
+}
+/*landscape*/
+@media (min-width: 440px) and (max-height: 400px){
+
+  img.imgGallery{
+    width: 50%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  
+}
+/*website portrait*/
+
+@media (max-width : 750px) and (max-height: 750px){
   body { 
-    margin-left: 3%;
+    margin-left:3%;
     margin-right: 3%; 
     
+}
+img.imgGallery{
+  width: 90%;
 }
 }
